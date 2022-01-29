@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+@media only screen and (max-width:600px){
+    .nav{
+        width: 100%;
+        display: block;
+    } 
+}
+
+nav a{
+    text-decoration: none;
+    padding: .6rem;
+}
+nav i{
+    font-size: 3rem;
+}
+nav a:hover{
+    background-color: rgb(26,182,150);
+}
+
+.mpl{
+    position: absolute;
+    top: 20%;
+    
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+    .mpl{
+        width: 100%;
+        display: block;
+    } 
+}
+img{
+    width: 100%;
+
+}
+@media only screen and (max-width:600px){
+    img{
+        width: 100%;
+        display: block;
+    } 
+}
+
+.mpl1{
+    
+    text-align: center;
+    margin-left: 4rem;
+}
+.mpl1 button{
+    width: 10%;
+    height: 40px;
+    border: none;
+    
+    
+}
+.mpl1 a{
+    border: 1px solid rgb(209,210,212);
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+@media only screen and (max-width:600px){
+    .mpl1 a{
+        width: 50%;
+        display: block;
+        font-size: 50%;
+    } 
+}
+@media only screen and (max-width:600px){
+    .mpl1{
+        display: grid;
+        grid-template-columns: auto;
+    } 
+}
+.mpl1 a:hover{
+    background-color: rgb(26,188,155);
+}
+
+.all{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+@media only screen and (max-width:600px){
+    .all{
+        width: 100%;
+        display: block;
+    } 
+}
+
+
+.all1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+@media only screen and (max-width:600px){
+    .all1{
+        width: 100%;
+        display: block;
+    } 
+}
+.all i{
+    font-size: 4rem;    
+    padding: 4rem;
+    border-radius: 100%;
+}
+.all1 i{
+    font-size: 4rem;  
+    border-radius: 100%;
+    padding: 4rem;
+}
+.lion{
+    position: absolute;
+    top: 20%;
+    color: white;
+    text-align: center;
+    
+}
+@media only screen and (max-width:600px){
+    .lion{
+        width: 100%;
+        display: block;
+        font-size: 50%;
+        
+    } 
+}
+.alls{
+    background-color: rgb(22,160,134);
+}
+.dill{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.dill1{
+    text-align: center;
+}
+.kill{
+    width: 85%;
+    margin-left: 7%;
+    
+}
+@media only screen and (max-width:600px){
+    .dill{
+        width: 100%;
+        display: block;
+        
+    } 
+}
